@@ -21,16 +21,17 @@ router.post('/upload-file-excel', uploads.single('xlsx'), async function (req, r
 
             findEmail.get().then(function (doc) {
                 if (!doc.exists) {
-                    let newUserDoc = analysisUserAllCollect.doc();
-                    newUserDoc.set({
-                        id: newUserDoc.id,
-                        name: _data["ชื่อ"] ? _data["ชื่อ"] : "",
-                        email: _data["อีเมล"] ? _data["อีเมล"] : "",
-                        type: _data["ประเภท"] ? _data["ประเภท"] : "",
-                        phone: _data["เบอร์โทร"] ? _data["เบอร์โทร"] : "",
-                        age: _data["อายุ"] ? _data["อายุ"] : "",
-                        date: new Date()
-                    })
+                    l
+                    // let newUserDoc = analysisUserAllCollect.doc();
+                    // newUserDoc.set({
+                    //     id: newUserDoc.id,
+                    //     name: _data["ชื่อ"] ? _data["ชื่อ"] : "",
+                    //     email: _data["อีเมล"] ? _data["อีเมล"] : "",
+                    //     type: _data["ประเภท"] ? _data["ประเภท"] : "",
+                    //     phone: _data["เบอร์โทร"] ? _data["เบอร์โทร"] : "",
+                    //     age: _data["อายุ"] ? _data["อายุ"] : "",
+                    //     date: new Date()
+                    // })
                 }
             })
         })
