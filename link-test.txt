@@ -1,1 +1,7 @@
 http://localhost:3000/blackboard/mail/analysis?name=test&email=n.devs260340@gmail.com&age=23&phone=+66803147507&action=true&date=2015-03-25
+http://localhost:3000/upload
+http://localhost:3000/user-all
+http://localhost:3000/add-user-send
+http://localhost:3000/view-analaysis
+
+http://localhost:3000/blackboard/mail/analysis?name=${name}&email=${email}&age=${age}&phone=${phone}&action=true&date=${date}

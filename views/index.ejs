@@ -1,11 +1,44 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+<html style="height: 100%;width: 100%">
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <style type="text/css">
+  .center-all {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  </style>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+
+<body style="height: 100%;width: 100%">
+  <div style="    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;">
+    <div>
+      <div class="center-all">
+        <a href="/upload" class="btn btn-outline-primary" type="button">อัปโหลดรายชื่อลูกค้าจากไฟล์ excel</a>
+      </div>
+      <div class="center-all">
+        <a href="/user-all" class="btn btn-outline-secondary" type="button">รายชื่อลูกค้าทั้งหมด</a>
+      </div>
+      <div class="center-all">
+        <a href="/add-user-send" class="btn btn-outline-success" type="button">ส่งอีเมล</a>
+      </div>
+      <div class="center-all">
+        <a href="/view-analysis" class="btn btn-outline-warning" type="button">ความคืบหน้าของการตลาด</a>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
