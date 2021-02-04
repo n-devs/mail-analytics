@@ -1,0 +1,1 @@
+http://localhost:3000/blackboard/mail/analysis?name=test&email=n.devs260340@gmail.com&age=23&phone=+66803147507&action=true&date=2015-03-25
